@@ -13,6 +13,10 @@
 		A29567CF206A1A0100E26595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29567CE206A1A0100E26595 /* Assets.xcassets */; };
 		A29567D2206A1A0100E26595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29567D0206A1A0100E26595 /* LaunchScreen.storyboard */; };
 		A29567D5206A1A0100E26595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567D4206A1A0100E26595 /* main.m */; };
+		A29567DD206A1B6200E26595 /* WBBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567DC206A1B6200E26595 /* WBBarrageCell.m */; };
+		A29567E0206A1BE700E26595 /* WBBarrageConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567DF206A1BE700E26595 /* WBBarrageConfiguration.m */; };
+		A29567E4206A1DF100E26595 /* WBBarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567E3206A1DF100E26595 /* WBBarrageModel.m */; };
+		A29567E7206A1EA500E26595 /* WBBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567E6206A1EA500E26595 /* WBBarrageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		A29567D1206A1A0100E26595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A29567D3206A1A0100E26595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29567D4206A1A0100E26595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A29567DB206A1B6200E26595 /* WBBarrageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBarrageCell.h; sourceTree = "<group>"; };
+		A29567DC206A1B6200E26595 /* WBBarrageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBarrageCell.m; sourceTree = "<group>"; };
+		A29567DE206A1BE700E26595 /* WBBarrageConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBarrageConfiguration.h; sourceTree = "<group>"; };
+		A29567DF206A1BE700E26595 /* WBBarrageConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBarrageConfiguration.m; sourceTree = "<group>"; };
+		A29567E1206A1CEF00E26595 /* WBBarrageDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBarrageDefines.h; sourceTree = "<group>"; };
+		A29567E2206A1DF100E26595 /* WBBarrageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBarrageModel.h; sourceTree = "<group>"; };
+		A29567E3206A1DF100E26595 /* WBBarrageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBarrageModel.m; sourceTree = "<group>"; };
+		A29567E5206A1EA500E26595 /* WBBarrageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBarrageView.h; sourceTree = "<group>"; };
+		A29567E6206A1EA500E26595 /* WBBarrageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBarrageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +75,15 @@
 				A29567C6206A1A0100E26595 /* AppDelegate.m */,
 				A29567C8206A1A0100E26595 /* ViewController.h */,
 				A29567C9206A1A0100E26595 /* ViewController.m */,
+				A29567DB206A1B6200E26595 /* WBBarrageCell.h */,
+				A29567DC206A1B6200E26595 /* WBBarrageCell.m */,
+				A29567DE206A1BE700E26595 /* WBBarrageConfiguration.h */,
+				A29567DF206A1BE700E26595 /* WBBarrageConfiguration.m */,
+				A29567E1206A1CEF00E26595 /* WBBarrageDefines.h */,
+				A29567E2206A1DF100E26595 /* WBBarrageModel.h */,
+				A29567E3206A1DF100E26595 /* WBBarrageModel.m */,
+				A29567E5206A1EA500E26595 /* WBBarrageView.h */,
+				A29567E6206A1EA500E26595 /* WBBarrageView.m */,
 				A29567CB206A1A0100E26595 /* Main.storyboard */,
 				A29567CE206A1A0100E26595 /* Assets.xcassets */,
 				A29567D0206A1A0100E26595 /* LaunchScreen.storyboard */,
@@ -145,6 +167,10 @@
 				A29567CA206A1A0100E26595 /* ViewController.m in Sources */,
 				A29567D5206A1A0100E26595 /* main.m in Sources */,
 				A29567C7206A1A0100E26595 /* AppDelegate.m in Sources */,
+				A29567E4206A1DF100E26595 /* WBBarrageModel.m in Sources */,
+				A29567DD206A1B6200E26595 /* WBBarrageCell.m in Sources */,
+				A29567E7206A1EA500E26595 /* WBBarrageView.m in Sources */,
+				A29567E0206A1BE700E26595 /* WBBarrageConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
