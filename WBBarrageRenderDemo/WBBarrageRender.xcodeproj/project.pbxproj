@@ -17,6 +17,8 @@
 		A29567E0206A1BE700E26595 /* WBBarrageConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567DF206A1BE700E26595 /* WBBarrageConfiguration.m */; };
 		A29567E4206A1DF100E26595 /* WBBarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567E3206A1DF100E26595 /* WBBarrageModel.m */; };
 		A29567E7206A1EA500E26595 /* WBBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567E6206A1EA500E26595 /* WBBarrageView.m */; };
+		A29567EC206A30FD00E26595 /* BarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567E8206A30FB00E26595 /* BarrageModel.m */; };
+		A29567ED206A30FD00E26595 /* BarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A29567EB206A30FD00E26595 /* BarrageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		A29567E3206A1DF100E26595 /* WBBarrageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBarrageModel.m; sourceTree = "<group>"; };
 		A29567E5206A1EA500E26595 /* WBBarrageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBarrageView.h; sourceTree = "<group>"; };
 		A29567E6206A1EA500E26595 /* WBBarrageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBarrageView.m; sourceTree = "<group>"; };
+		A29567E8206A30FB00E26595 /* BarrageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarrageModel.m; path = "../../../../备份包/10.0.12/Undercover/Components/ViewComponent/gameViewComponent/bulletScreenViewController/Barrage/BarrageModel.m"; sourceTree = "<group>"; };
+		A29567E9206A30FC00E26595 /* BarrageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarrageCell.h; path = "../../../../备份包/10.0.12/Undercover/Components/ViewComponent/gameViewComponent/bulletScreenViewController/Barrage/BarrageCell.h"; sourceTree = "<group>"; };
+		A29567EA206A30FC00E26595 /* BarrageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarrageModel.h; path = "../../../../备份包/10.0.12/Undercover/Components/ViewComponent/gameViewComponent/bulletScreenViewController/Barrage/BarrageModel.h"; sourceTree = "<group>"; };
+		A29567EB206A30FD00E26595 /* BarrageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarrageCell.m; path = "../../../../备份包/10.0.12/Undercover/Components/ViewComponent/gameViewComponent/bulletScreenViewController/Barrage/BarrageCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 				A29567DE206A1BE700E26595 /* WBBarrageConfiguration.h */,
 				A29567DF206A1BE700E26595 /* WBBarrageConfiguration.m */,
 				A29567E1206A1CEF00E26595 /* WBBarrageDefines.h */,
+				A29567E9206A30FC00E26595 /* BarrageCell.h */,
+				A29567EB206A30FD00E26595 /* BarrageCell.m */,
+				A29567EA206A30FC00E26595 /* BarrageModel.h */,
+				A29567E8206A30FB00E26595 /* BarrageModel.m */,
 				A29567E2206A1DF100E26595 /* WBBarrageModel.h */,
 				A29567E3206A1DF100E26595 /* WBBarrageModel.m */,
 				A29567E5206A1EA500E26595 /* WBBarrageView.h */,
@@ -165,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29567CA206A1A0100E26595 /* ViewController.m in Sources */,
+				A29567ED206A30FD00E26595 /* BarrageCell.m in Sources */,
+				A29567EC206A30FD00E26595 /* BarrageModel.m in Sources */,
 				A29567D5206A1A0100E26595 /* main.m in Sources */,
 				A29567C7206A1A0100E26595 /* AppDelegate.m in Sources */,
 				A29567E4206A1DF100E26595 /* WBBarrageModel.m in Sources */,
@@ -307,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8HT367G9J;
 				INFOPLIST_FILE = WBBarrageRender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dyliu.WBBarrageRender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8HT367G9J;
 				INFOPLIST_FILE = WBBarrageRender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dyliu.WBBarrageRender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
